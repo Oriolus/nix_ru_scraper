@@ -3,9 +3,9 @@ import logging
 import uuid
 from mysql.connector import MySQLConnection
 from data.MySQLHelper import MySQLHelper
-from data.entities.EntityHandler import EntityHandler
-from data.spiders.UnitSpider import UnitSpider
-from data.dictionary.ProcessState import ProcessState
+from data.entities import EntityHandler
+from data.spiders import UnitSpider
+from data.dictionary import ProcessState
 
 
 class PropertyEntityHandler(EntityHandler):

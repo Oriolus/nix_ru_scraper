@@ -3,7 +3,7 @@ from scrapy.http import TextResponse
 from scrapy import Request
 import json
 
-from data.spiders.NixSpider import NixSpider
+from data.spiders import NixSpider
 
 
 class UnitSpider(NixSpider):

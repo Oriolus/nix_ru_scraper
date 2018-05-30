@@ -1,0 +1,3 @@
+from data.entities.EntityHandler import EntityHandler
+from data.entities.PropertyEntityHandler import PropertyEntityHandler
+from data.entities.UnitEntityHandler import UnitEntityHandler

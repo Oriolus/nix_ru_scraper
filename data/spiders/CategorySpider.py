@@ -1,6 +1,6 @@
 from scrapy.http import TextResponse
 
-from data.spiders.NixSpider import NixSpider
+from data.spiders import NixSpider
 
 
 class CategorySpider(NixSpider):

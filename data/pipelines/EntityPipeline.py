@@ -1,6 +1,6 @@
 import logging
 from typing import Optional
-from data.entities.EntityHandler import EntityHandler
+from data.entities import EntityHandler
 from mysql.connector import MySQLConnection
 from data.MySQLHelper import MySQLHelper
 from data.spiders.NixSpider import NixSpider
